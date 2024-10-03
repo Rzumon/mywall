@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous Wall</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>RAJASHREE'S WALL</h1>
+        </header>
+
+        <section class="form-section">
+            <form id="messageForm">
+                <textarea id="messageInput" placeholder="Write your anonymous message..." required></textarea>
+                <button type="submit">Post Message</button>
+            </form>
+        </section>
+
+        <section id="messageWall">
+            <h2>Messages:</h2>
+            <div id="messagesList"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
